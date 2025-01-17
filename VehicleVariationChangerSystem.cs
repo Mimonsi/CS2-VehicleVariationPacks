@@ -150,6 +150,18 @@ namespace VehicleVariationPacks
                 {
                     Instance._currentVariationPack = VariationPack.Default();
                 }
+                if (value == "ColorComponents1")
+                {
+                    Instance._currentVariationPack = VariationPack.ColorComponents1();
+                }
+                if (value == "ColorComponents2")
+                {
+                    Instance._currentVariationPack = VariationPack.ColorComponents2();
+                }
+                if (value == "ColorComponents3")
+                {
+                    Instance._currentVariationPack = VariationPack.ColorComponents3();
+                }
             }
             else
             {

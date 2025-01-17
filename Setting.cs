@@ -56,7 +56,7 @@ namespace VehicleVariationPacks
                 _packDropdown = value;
                 if (value != null)
                 {
-                    VehicleVariationPacks.VehicleVariationChangerSystem.Instance.LoadVariationPack(value);
+                    VehicleVariationChangerSystem.Instance.LoadVariationPack(value);
                 }
             }
         }
@@ -74,6 +74,27 @@ namespace VehicleVariationPacks
                     displayName = s,
                 });
             }
+
+            /*items.Add(new DropdownItem<string>()
+            {
+                value = "debug_ColorComponents1",
+                displayName = "ColorComponents1",
+            });
+            items.Add(new DropdownItem<string>()
+            {
+                value = "debug_ColorComponents2",
+                displayName = "ColorComponents2",
+            });
+            items.Add(new DropdownItem<string>()
+            {
+                value = "debug_ColorComponents3",
+                displayName = "ColorComponents3",
+            });
+            items.Add(new DropdownItem<string>()
+            {
+                value = "debug_Test",
+                displayName = "RGB",
+            });*/
 
             return items.ToArray();
         }

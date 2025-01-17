@@ -155,6 +155,54 @@ public record VariationPack
         return pack;
     }
 
+    public static VariationPack ColorComponents1()
+    {
+        VariationPack pack = new VariationPack();
+        pack.Name = "debug_ColorComponents1";
+        pack.Entries = new Dictionary<string, List<Entry>>();
+        pack.Entries["default"] = new List<Entry>();
+        pack.Entries["default"].Add(new Entry()
+        {
+            color1 = Color.green,
+            color2 = new Color(0.718f, 0.196f, 0.671f),
+            color3 = new Color(0.718f, 0.196f, 0.671f),
+            probability = 1
+        });
+        return pack;
+    }
+
+    public static VariationPack ColorComponents2()
+    {
+        VariationPack pack = new VariationPack();
+        pack.Name = "debug_ColorComponents2";
+        pack.Entries = new Dictionary<string, List<Entry>>();
+        pack.Entries["default"] = new List<Entry>();
+        pack.Entries["default"].Add(new Entry()
+        {
+            color1 = new Color(0.718f, 0.196f, 0.671f),
+            color2 = Color.green,
+            color3 = new Color(0.718f, 0.196f, 0.671f),
+            probability = 1
+        });
+        return pack;
+    }
+
+    public static VariationPack ColorComponents3()
+    {
+        VariationPack pack = new VariationPack();
+        pack.Name = "debug_ColorComponents3";
+        pack.Entries = new Dictionary<string, List<Entry>>();
+        pack.Entries["default"] = new List<Entry>();
+        pack.Entries["default"].Add(new Entry()
+        {
+            color1 = new Color(0.718f, 0.196f, 0.671f),
+            color2 = new Color(0.718f, 0.196f, 0.671f),
+            color3 = Color.green,
+            probability = 1
+        });
+        return pack;
+    }
+
     public void FillColorVariations(string prefabName, ref DynamicBuffer<ColorVariation> buffer)
     {
         if (Entries == null || !Entries.ContainsKey(prefabName))
