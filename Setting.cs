@@ -11,33 +11,18 @@ using Game.UI.Widgets;
 namespace VehicleVariationPacks
 {
     [FileLocation($"ModsSettings/{nameof(VehicleVariationPacks)}/{nameof(VehicleVariationPacks)}")]
+    [SettingsUIGroupOrder(kSettingsGroup, kCreateVariationPackGroup)]
+    [SettingsUIShowGroupName(kSettingsGroup, kCreateVariationPackGroup)]
+    
     public class Setting : ModSetting
     {
         public static Setting Instance;
+        public const string kMainSection = "Settings";
+        public const string kSettingsGroup = "General Settings";
+        public const string kCreateVariationPackGroup = "Create Variation Pack";
         public Setting(IMod mod) : base(mod)
         {
 
-        }
-
-        [SettingsUIHidden]
-        public bool HiddenSetting { get; set; }
-
-        public bool OpenPacksFolder
-        {
-            set
-            {
-                var file = EnvPath.kUserDataPath + "/ModsData/VehicleVariationPacks/packs";
-                var parentDir = Directory.GetParent(file).FullName;
-                Process.Start(Path.Combine(parentDir, "packs"));
-            }
-        }
-
-        public bool ReloadPacks
-        {
-            set
-            {
-                PackDropdownItemsVersion++;
-            }
         }
 
         private string _packDropdown = "Realistic Global";
@@ -45,6 +30,7 @@ namespace VehicleVariationPacks
 
         [SettingsUIDropdown(typeof(Setting), nameof(GetNameDropdownItems))]
         [SettingsUIValueVersion(typeof(Setting), nameof(PackDropdownItemsVersion))]
+        [SettingsUISection(kMainSection, kSettingsGroup)]
         public string PackDropdown
         {
             get
@@ -98,10 +84,41 @@ namespace VehicleVariationPacks
 
             return items.ToArray();
         }
+        
+        [SettingsUISection(kMainSection, kSettingsGroup)]
+        public bool OpenPacksFolder
+        {
+            set
+            {
+                var file = EnvPath.kUserDataPath + "/ModsData/VehicleVariationPacks/packs";
+                var parentDir = Directory.GetParent(file).FullName;
+                Process.Start(Path.Combine(parentDir, "packs"));
+            }
+        }
+
+        [SettingsUISection(kMainSection, kSettingsGroup)]
+        public bool ReloadPacks
+        {
+            set
+            {
+                PackDropdownItemsVersion++;
+            }
+        }
+
+        [SettingsUIButton]
+        [SettingsUISection(kMainSection, kCreateVariationPackGroup)]
+        public bool OpenVariationPackCreator
+        {
+            set => Process.Start("https://variationpackcreator.mimonsi.de");
+        }
+
+        [SettingsUIMultilineText]
+        [SettingsUISection(kMainSection, kCreateVariationPackGroup)]
+        public string ImportPackText => string.Empty;
 
         public override void SetDefaults()
         {
-            HiddenSetting = true;
+            
         }
     }
 
@@ -120,7 +137,13 @@ namespace VehicleVariationPacks
             return new Dictionary<string, string>
             {
                 { m_Setting.GetSettingsLocaleID(), "Vehicle Variation Packs" },
-
+                
+                { m_Setting.GetOptionTabLocaleID(Setting.kMainSection), "Settings" },
+                { m_Setting.GetOptionGroupLocaleID(Setting.kSettingsGroup), "General Settings" },
+                { m_Setting.GetOptionGroupLocaleID(Setting.kCreateVariationPackGroup), "Create Variation Packs" },
+                
+                {m_Setting.GetOptionLabelLocaleID(nameof(Setting.ImportPackText)), "After creating your pack in the online tool and downloading the file, click on 'Open Variation Pack Folder' and put the downloaded json-file in that folder. Click on 'Reload available Packs' to refresh the list and select your pack in the dropdown menu."},
+                
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.OpenPacksFolder)), "Open Packs Folder" },
                 {
                     m_Setting.GetOptionDescLocaleID(nameof(Setting.OpenPacksFolder)),
@@ -139,6 +162,12 @@ namespace VehicleVariationPacks
                     m_Setting.GetOptionDescLocaleID(nameof(Setting.PackDropdown)),
                     $"Choose which Variation Pack to use. If you manually installed a pack and it is not displayed here, click on 'Reload available Packs' to refresh the list"
                 },
+                
+                {m_Setting.GetOptionLabelLocaleID(nameof(Setting.OpenVariationPackCreator)), "Open Variation Pack Creator"},
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.OpenVariationPackCreator)),
+                    "Open the Variation Pack Creator in your browser. This tool allows you to create your own variation packs"
+                }
             };
         }
 

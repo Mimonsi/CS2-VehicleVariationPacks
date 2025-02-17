@@ -31,7 +31,6 @@ namespace VehicleVariationPacks
             GameManager.instance.localizationManager.AddSource("en-US", new LocaleEN(m_Setting));
 
             AssetDatabase.global.LoadSettings(nameof(VehicleVariationPacks), m_Setting, new Setting(this));
-            m_Setting.HiddenSetting = false;
             Setting.Instance = m_Setting;
         }
 

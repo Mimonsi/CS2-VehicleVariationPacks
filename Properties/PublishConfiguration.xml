@@ -9,12 +9,15 @@
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 ## Vehicle Variation Packs (Car Variation Changer)
-This mod allows you to load custom variations for vehicle colors, reflecting a more realistic distribution. Currently, there are 3 preinstalled packs:
+This mod allows you to load custom variations for vehicle colors, reflecting a more realistic distribution. Currently, there are 5 preinstalled packs:
 
 
 - **Realistic Global** - A more realistic distribution of colors. Generalized for all vehicles, based on real world data
 - **Vanilla** - The default game colors
 - **German Vehicle Pack** - Realistic Global with German Service Vehicle Variations
+- **Japan** - Japanese Service Vehicles
+- **Vancouver, Canada** - Vancouver Service Vehicles
+		
 
 ## Features
 - Affects Colors of Personal Vehicles, Parked Vehicles, Motorcycles, and Service Vehicles
@@ -36,15 +39,16 @@ Thanks to **krzychu124** for helping me with the first steps of accessing vehicl
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/vehicle-variation-packs.1678502/" />
 	<!--Version of the mod-->
-	<ModVersion Value="2.0.2" />
+	<ModVersion Value="2.0.3" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.1.*" />
+	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-- Remove unneeded assemblies
-- Improve Export of Vanilla Pack
+- Add Link to Online Variation Pack Creator
+- Add instructions to use Variation Pack Creator
+- Overhaul settings
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/Mimonsi/CS2-VehicleVariationPacks" />
