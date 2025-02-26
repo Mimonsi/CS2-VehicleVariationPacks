@@ -1,5 +1,6 @@
 ﻿using System.IO;
 using Colossal.IO.AssetDatabase;
+using Colossal.Json;
 using Colossal.Logging;
 using Colossal.PSI.Environment;
 using Game;
@@ -24,7 +25,7 @@ namespace VehicleVariationPacks
                 path = asset.path;
 
             CopyEmbeddedPacks();
-            updateSystem.UpdateAt<VehicleVariationChangerSystem>(SystemUpdatePhase.MainLoop);
+            updateSystem.UpdateAt<Systems.VehicleVariationChangerSystem>(SystemUpdatePhase.MainLoop);
 
             m_Setting = new Setting(this);
             m_Setting.RegisterInOptionsUI();

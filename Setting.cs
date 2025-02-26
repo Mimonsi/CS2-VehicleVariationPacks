@@ -7,6 +7,7 @@ using Colossal.PSI.Environment;
 using Game.Modding;
 using Game.Settings;
 using Game.UI.Widgets;
+using VehicleVariationPacks.Data;
 
 namespace VehicleVariationPacks
 {

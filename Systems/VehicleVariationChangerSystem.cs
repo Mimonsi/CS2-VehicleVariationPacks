@@ -6,10 +6,9 @@ using Game.Prefabs;
 using Game.Vehicles;
 using Unity.Collections;
 using Unity.Entities;
-using PersonalCar = Game.Vehicles.PersonalCar;
-using PublicTransport = Game.Prefabs.PublicTransport;
+using VehicleVariationPacks.Data;
 
-namespace VehicleVariationPacks
+namespace VehicleVariationPacks.Systems
 {
     public partial class VehicleVariationChangerSystem : GameSystemBase
     {

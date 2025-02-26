@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using Unity.Entities;
 using UnityEngine;
 
-namespace VehicleVariationPacks;
+namespace VehicleVariationPacks.Data;
 
 public record PrefabEntry
 {
