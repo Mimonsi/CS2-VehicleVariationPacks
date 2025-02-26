@@ -6,6 +6,7 @@ using Colossal.PSI.Environment;
 using Game;
 using Game.Modding;
 using Game.SceneFlow;
+using VehicleVariationPacks.Systems;
 
 namespace VehicleVariationPacks
 {
@@ -25,11 +26,14 @@ namespace VehicleVariationPacks
                 path = asset.path;
 
             CopyEmbeddedPacks();
-            updateSystem.UpdateAt<Systems.VehicleVariationChangerSystem>(SystemUpdatePhase.MainLoop);
+            updateSystem.UpdateAt<VehicleVariationChangerSystem>(SystemUpdatePhase.MainLoop);
 
             m_Setting = new Setting(this);
             m_Setting.RegisterInOptionsUI();
-            GameManager.instance.localizationManager.AddSource("en-US", new LocaleEN(m_Setting));
+            foreach (var item in new LocaleHelper("VehicleVariationPacks.Locale.json").GetAvailableLanguages())
+            {
+                GameManager.instance.localizationManager.AddSource(item.LocaleId, item);
+            }
 
             AssetDatabase.global.LoadSettings(nameof(VehicleVariationPacks), m_Setting, new Setting(this));
             Setting.Instance = m_Setting;

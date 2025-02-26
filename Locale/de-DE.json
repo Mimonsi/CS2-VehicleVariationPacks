@@ -1,0 +1,15 @@
+{
+    "Options.SECTION[VehicleVariationPacks.VehicleVariationPacks.Mod]": "Vehicle Variation Packs",
+    "Options.TAB[VehicleVariationPacks.VehicleVariationPacks.Mod.Settings]": "Einstellungen",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.General Settings]": "Allgemeine Einstellungen",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.Create Variation Pack]": "Variation Packs erstellen",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "Nachdem du dein Pack im Online-Tool erstellt hast und die Datei heruntergeladen hast, klicke auf 'Variation Pack Ordner öffnen' und speichere die heruntergeladene Json-Datei in dem Ordner. Klicke auf 'Verfügbare Packs neu laden', um die Liste zu aktualisieren und wähle dein gewünschtes Paket im Dropdown-Menü aus.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Variation Pack Ordner öffnen",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Öffnet den Speicherort der Variation Packs. Dort kannst du eigene hinzufügen.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Verfügbare Pakete neu laden",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Lädt die Liste aller verfügbaren Packs im Ordner neu",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Aktives Pack",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Wähle, welches Variation Pack benutzt werden soll. Wenn du ein Pack installiert hast und es hier nicht angezeigt wird, klicke auf 'Verfügbare Packs neu laden'.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Variation Pack Creator öffnen",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Öffne den Variation Pack Creator in deinem Browser. Mit diesem Online-Tool kannst du eigene Packs erstellen."
+}

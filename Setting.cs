@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using Colossal;
 using Colossal.IO.AssetDatabase;
 using Colossal.PSI.Environment;
 using Game.Modding;
 using Game.Settings;
 using Game.UI.Widgets;
 using VehicleVariationPacks.Data;
+using VehicleVariationPacks.Systems;
 
 namespace VehicleVariationPacks
 {
@@ -120,60 +120,6 @@ namespace VehicleVariationPacks
         public override void SetDefaults()
         {
             
-        }
-    }
-
-    public class LocaleEN : IDictionarySource
-    {
-        private readonly Setting m_Setting;
-
-        public LocaleEN(Setting setting)
-        {
-            m_Setting = setting;
-        }
-
-        public IEnumerable<KeyValuePair<string, string>> ReadEntries(IList<IDictionaryEntryError> errors,
-            Dictionary<string, int> indexCounts)
-        {
-            return new Dictionary<string, string>
-            {
-                { m_Setting.GetSettingsLocaleID(), "Vehicle Variation Packs" },
-                
-                { m_Setting.GetOptionTabLocaleID(Setting.kMainSection), "Settings" },
-                { m_Setting.GetOptionGroupLocaleID(Setting.kSettingsGroup), "General Settings" },
-                { m_Setting.GetOptionGroupLocaleID(Setting.kCreateVariationPackGroup), "Create Variation Packs" },
-                
-                {m_Setting.GetOptionLabelLocaleID(nameof(Setting.ImportPackText)), "After creating your pack in the online tool and downloading the file, click on 'Open Variation Pack Folder' and put the downloaded json-file in that folder. Click on 'Reload available Packs' to refresh the list and select your pack in the dropdown menu."},
-                
-                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.OpenPacksFolder)), "Open Packs Folder" },
-                {
-                    m_Setting.GetOptionDescLocaleID(nameof(Setting.OpenPacksFolder)),
-                    $"Opens the folder where the packs are stored, allowing you to add your own"
-                },
-
-                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.ReloadPacks)), "Reload available Packs" },
-                {
-                    m_Setting.GetOptionDescLocaleID(nameof(Setting.ReloadPacks)),
-                    $"Reloads the available packs installed in your packs folder"
-                },
-
-
-                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.PackDropdown)), "Active Pack" },
-                {
-                    m_Setting.GetOptionDescLocaleID(nameof(Setting.PackDropdown)),
-                    $"Choose which Variation Pack to use. If you manually installed a pack and it is not displayed here, click on 'Reload available Packs' to refresh the list"
-                },
-                
-                {m_Setting.GetOptionLabelLocaleID(nameof(Setting.OpenVariationPackCreator)), "Open Variation Pack Creator"},
-                {
-                    m_Setting.GetOptionDescLocaleID(nameof(Setting.OpenVariationPackCreator)),
-                    "Open the Variation Pack Creator in your browser. This tool allows you to create your own variation packs"
-                }
-            };
-        }
-
-        public void Unload()
-        {
         }
     }
 }

@@ -8,13 +8,6 @@
         <!--The folder where Game.dll is located. Set it only if the game is not installed in the default location, otherwise keep it empty-->
         <CustomManagedPath>D:/Games/steamapps/common/Cities Skylines II/Cities2_Data/Managed</CustomManagedPath>
 
-        <!--Path to the text file where PDX account data is stored which is required to publish the mod-->
-        <!--Keep it outside of project in order to not commit it or share accidentally-->
-        <!--The file should contain 2 lines:-->
-        <!--Your.PDX@Account.login-->
-        <!--Your-PDX-Account-Pa$$word-->
-        <PDXAccountDataPath>$(USERPROFILE)\Desktop\pdx_account.txt</PDXAccountDataPath>
-
         <AdditionalFilesDirectory>Resources</AdditionalFilesDirectory>
 
         <!--The file where mod information which is required for publishing mod on PDX mods are stored-->
@@ -71,6 +64,13 @@
         <Reference Include="Unity.Mathematics">
             <Private>false</Private>
         </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Locale.json" />
+        <EmbeddedResource Include="Locale\*.json" />
+        <None Remove="Locale.json" />
+        <None Remove="Locale\*.json" />
     </ItemGroup>
 
     <ItemGroup>
