@@ -1,0 +1,15 @@
+{
+    "Options.SECTION[VehicleVariationPacks.VehicleVariationPacks.Mod]": "Vehicle Variation Packs",
+    "Options.TAB[VehicleVariationPacks.VehicleVariationPacks.Mod.Settings]": "Paramètres",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.General Settings]": "General Settings",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.Create Variation Pack]": "Create Variation Packs",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "After creating your pack in the online tool and downloading the file, click on 'Open Variation Pack Folder' and put the downloaded json-file in that folder. Click on 'Reload available Packs' to refresh the list and select your pack in the dropdown menu.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Open Packs Folder",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Opens the folder where the packs are stored, allowing you to add your own.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reload available Packs",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reloads the available packs installed in your packs folder.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Active Pack",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Choose which Variation Pack to use. If you manually installed a pack and it is not displayed here, click on 'Reload available Packs' to refresh the list.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Open Variation Pack Creator",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Open the Variation Pack Creator in your browser. This tool allows you to create your own variation packs."
+}
