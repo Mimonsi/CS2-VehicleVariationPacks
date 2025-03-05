@@ -1,9 +1,9 @@
 {
-    "Options.SECTION[VehicleVariationPacks.VehicleVariationPacks.Mod]": "차량 다양화 세트(VEHICLE VARIATION PACKS)",
+    "Options.SECTION[VehicleVariationPacks.VehicleVariationPacks.Mod]": "차량 다양화 세트(Vehicle Variation Packs)",
     "Options.TAB[VehicleVariationPacks.VehicleVariationPacks.Mod.Settings]": "설정",
     "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.General Settings]": "일반 설정",
     "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.Create Variation Pack]": "다양화 세트 생성",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "온라인 도구에서 세트를 생성한 후 파일을 다운로드하고, '변경 사항 세트 폴더 열기'를 클릭하여 다운로드한 json 파일을 해당 폴더에 넣으세요. '사용 가능한 세트 새로 고침'을 클릭하여 목록을 새로 고친 후 드롭다운 메뉴에서 해당 팩을 선택하세요.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "온라인 도구에서 세트를 제작한 후 파일을 다운로드하고, '다양화 세트 폴더 열기'를 클릭하여 다운로드한 json 파일을 해당 폴더에 넣으세요. 그 다음 '사용 가능한 세트 불러오기'을 클릭하여 목록을 새로 고친 후 드롭다운 메뉴에서 해당 세트를 선택하세요.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "세트 폴더 열기",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "세트가 저장된 폴더를 열어 자신만의 세트를 추가할 수 있게 해줍니다.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "사용 가능한 세트 불러오기",
