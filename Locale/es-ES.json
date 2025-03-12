@@ -4,12 +4,12 @@
     "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.General Settings]": "Ajustes Generales",
     "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.Create Variation Pack]": "Crear packs de variaciones",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "Después de crear su paquete en la herramienta online y descargar el archivo, Haga clic en 'Abrir carpeta de packs' y coloque el archivo Json descargado en esa carpeta. Haga clic en \"Recargar packs disponibles\" para actualizar la lista y seleccionar su paquete en el menú desplegable.",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Open Packs Folder",
-    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Opens the folder where the packs are stored, allowing you to add your own.",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reload available Packs",
-    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reloads the available packs installed in your packs folder.",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Active Pack",
-    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Choose which Variation Pack to use. If you manually installed a pack and it is not displayed here, click on 'Reload available Packs' to refresh the list.",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Open Variation Pack Creator",
-    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Open the Variation Pack Creator in your browser. This tool allows you to create your own variation packs."
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Abrir carpeta de Packs",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Abre la carpeta donde se almacenan los paquetes, permitiéndole añadir los suyos.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Recargar packs disponibles",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Recarga los packs disponibles instalados en la carpeta de packs.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Pack Activo",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Elegir que packs de variación a utilizar. Si ha instalado manualmente un pack y no se muestra aquí, haga clic en \"Recargar packs disponibles\" para actualizar la lista.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Abrir Creador de Packs de Variaciones",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Abre el Creador de Pack de Variaciones en tu navegador. Esta herramienta te permite crear tus propios packs."
 }
