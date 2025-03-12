@@ -1,9 +1,9 @@
 {
     "Options.SECTION[VehicleVariationPacks.VehicleVariationPacks.Mod]": "Vehicle Variation Packs",
-    "Options.TAB[VehicleVariationPacks.VehicleVariationPacks.Mod.Settings]": "Settings",
-    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.General Settings]": "General Settings",
-    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.Create Variation Pack]": "Create Variation Packs",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "After creating your pack in the online tool and downloading the file, click on 'Open Variation Pack Folder' and put the downloaded json-file in that folder. Click on 'Reload available Packs' to refresh the list and select your pack in the dropdown menu.",
+    "Options.TAB[VehicleVariationPacks.VehicleVariationPacks.Mod.Settings]": "Ajustes",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.General Settings]": "Ajustes Generales",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.Create Variation Pack]": "Crear packs de variaciones",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "Después de crear su paquete en la herramienta online y descargar el archivo, Haga clic en 'Abrir carpeta de packs' y coloque el archivo Json descargado en esa carpeta. Haga clic en \"Recargar packs disponibles\" para actualizar la lista y seleccionar su paquete en el menú desplegable.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Open Packs Folder",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Opens the folder where the packs are stored, allowing you to add your own.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reload available Packs",
