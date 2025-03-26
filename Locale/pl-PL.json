@@ -1,0 +1,15 @@
+{
+    "Options.SECTION[VehicleVariationPacks.VehicleVariationPacks.Mod]": "Vehicle Variation Packs",
+    "Options.TAB[VehicleVariationPacks.VehicleVariationPacks.Mod.Settings]": "Ustawienia",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.General Settings]": "Ustawienia ogólne",
+    "Options.GROUP[VehicleVariationPacks.VehicleVariationPacks.Mod.Create Variation Pack]": "Tworzenie pakietów wariantów",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "Po stworzeniu pakietu w edytorze online i pobraniu pliku kliknij \"Otwórz folder pakietów\" i umieść w nim pobrany plik json. Kliknij \"Odśwież dostępne pakiety\", aby odświeżyć listę i móc wybrać z niej Twój pakiet.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Otwórz folder pakietów",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Otwiera folder, w którym przechowywane są pakiety wariantów, do którego możesz dodać własny pakiet.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Odśwież dostępne pakiety",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Odświeża dostępne pakiety znajdujące się w folderze.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Aktywny pakiet",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Wybierz pakiet wariantów do użycia. Jeśli dodałeś nowy pakiet i nie jest tu wyświetlany, kliknij \"Odśwież dostępne pakiety\", aby odświeżyć listę.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Otwórz Variation Pack Creator",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Otwórz Variation Pack Creator w przeglądarce. Ten edytor pozwala na tworzenie własnych pakietów wariantów."
+}
