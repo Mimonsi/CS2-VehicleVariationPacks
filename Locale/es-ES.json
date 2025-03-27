@@ -6,6 +6,8 @@
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "Después de crear su paquete en la herramienta online y descargar el archivo, Haga clic en 'Abrir carpeta de packs' y coloque el archivo Json descargado en esa carpeta. Haga clic en \"Recargar packs disponibles\" para actualizar la lista y seleccionar su paquete en el menú desplegable.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Abrir carpeta de Packs",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Abre la carpeta donde se almacenan los paquetes, permitiéndole añadir los suyos.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ShowDebugPacks]": "Show Debug Packs",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ShowDebugPacks]": "Shows additional built-in debug packs in the pack dropdown.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Recargar packs disponibles",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Recarga los packs disponibles instalados en la carpeta de packs.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Pack Activo",
