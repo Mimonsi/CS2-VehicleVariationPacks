@@ -3,6 +3,7 @@ using Colossal.Serialization.Entities;
 using Game;
 using Game.Common;
 using Game.Prefabs;
+using Game.SceneFlow;
 using Game.Vehicles;
 using Unity.Collections;
 using Unity.Entities;
@@ -12,8 +13,6 @@ namespace VehicleVariationPacks.Systems
 {
     public partial class VehicleVariationChangerSystem : GameSystemBase
     {
-        private static ILog Logger;
-
         private EntityQuery query;
 
         //private UIUpdateState uiUpdateState;
@@ -25,8 +24,7 @@ namespace VehicleVariationPacks.Systems
         {
             base.OnCreate();
             Instance = this;
-            Enabled = true;
-            Logger = Mod.log;
+            Enabled = false;
 
             EntityQueryDesc desc = new EntityQueryDesc
             {
@@ -38,6 +36,12 @@ namespace VehicleVariationPacks.Systems
             query = GetEntityQuery(desc);
             //uiUpdateState = UIUpdateState.Create(World, 1024);
             prefabSystem = World.GetOrCreateSystemManaged<PrefabSystem>();
+            GameManager.instance.RegisterUpdater(Initialize);
+        }
+
+        private void Initialize()
+        {
+            //UpdatePrefabs();
             SaveDefaultVariations();
             if (_currentVariationPack == null)
             {
@@ -46,19 +50,11 @@ namespace VehicleVariationPacks.Systems
                 {
                     pack = Setting.Instance.PackDropdown;
                 }
+                Mod.log.Info("Loading selected pack on startup: " + pack);
                 _currentVariationPack = VariationPack.Load(pack);
             }
-        }
-
-        protected override void OnGameLoadingComplete(Purpose purpose, GameMode mode)
-        {
-            base.OnGameLoadingComplete(purpose, mode);
-            if (mode == GameMode.MainMenu)
-            {
-                //UpdatePrefabs();
-                SaveDefaultVariations();
-                UpdateEntities();
-            }
+            UpdateEntities();
+            Enabled = true;
         }
 
         public static void UpdateEntitiesManually()
@@ -84,6 +80,7 @@ namespace VehicleVariationPacks.Systems
 
         private void SaveDefaultVariations()
         {
+            Mod.log.Info("Saving default variations...");
             var entities = query.ToEntityArray(Allocator.Temp);
             VariationPack pack = new VariationPack();
             foreach (var entity in entities)
@@ -101,14 +98,19 @@ namespace VehicleVariationPacks.Systems
                     }
                 }
             }
+            Mod.log.Info("File saved with " + pack.Entries.Count + " entries");
             pack.Name = "Vanilla";
             pack.Save();
         }
 
         private void UpdateEntities()
         {
+            Mod.log.Info("Updating entities");
             if (_currentVariationPack == null)
+            {
+                Mod.log.Info("Current pack is null, loading default pack");
                 _currentVariationPack = VariationPack.Load("Vanilla");
+            }
             var entities = query.ToEntityArray(Allocator.Temp);
             foreach (var entity in entities)
             {
@@ -134,6 +136,10 @@ namespace VehicleVariationPacks.Systems
 
         public void LoadVariationPack(string value)
         {
+            if (!Enabled) // Prevent Loading Pack before Initialization (by settings)
+            {
+                return;
+            }
             if (value.StartsWith("debug_"))
             {
                 value = value.Replace("debug_", "");
@@ -164,6 +170,7 @@ namespace VehicleVariationPacks.Systems
             }
             else
             {
+                Mod.log.Info("Loading pack from changed setting: " + value);
                 Instance._currentVariationPack = VariationPack.Load(value);
             }
             UpdateEntitiesManually();

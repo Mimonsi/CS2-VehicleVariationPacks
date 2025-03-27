@@ -205,7 +205,12 @@ public record VariationPack
 
     public void FillColorVariations(string prefabName, ref DynamicBuffer<ColorVariation> buffer)
     {
-        if (Entries == null || !Entries.ContainsKey(prefabName))
+        if (Entries == null)
+        {
+            Mod.log.Warn("Entries is null, this should never happen");
+            return;
+        }
+        if (!Entries.ContainsKey(prefabName))
         {
             if (Entries.ContainsKey("default"))
             {
@@ -246,6 +251,7 @@ public record VariationPack
 
     public static VariationPack Load(string name)
     {
+        Mod.log.Info("Loading pack " + name);
         var path = Path.Combine(EnvPath.kUserDataPath, "ModsData", nameof(VehicleVariationPacks), "packs", name + ".json");
         if (!File.Exists(path))
             return null;

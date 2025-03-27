@@ -24,6 +24,9 @@ This mod allows you to load custom variations for vehicle colors, reflecting a m
 - Supports user-created variation packs (create json files in mod folder)
 - Change active variation in the mod settings during gameplay, no reload/restart required
 
+## Create your own Packs
+Create your own packs using the [Variation Pack Creator](https://variationpackcreator.mimonsi.de/). The link can also be found in the Mod Settings.
+
 ## Cascading Packs
 The mod will only override assets that are explicitly included in the pack. That means, that you can choose a pack that changes all assets, and then switch to a pack that only changes police cars, and the police cars will be changed to the new pack, while all other vehicles will remain the same as the first pack.
 
@@ -39,16 +42,20 @@ Thanks to **krzychu124** for helping me with the first steps of accessing vehicl
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/vehicle-variation-packs.1678502/" />
 	<!--Version of the mod-->
-	<ModVersion Value="2.0.3" />
+	<ModVersion Value="2.1.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-- Add Link to Online Variation Pack Creator
-- Add instructions to use Variation Pack Creator
-- Overhaul settings
+- Fix error on loading in rare cases
+- Improve performance when changing packs
+- Add advanced option to show debug packs
+- Localization:
+	- Polish by **karmela68**
+	- Spanish by **elGendo87**
+	- Korean by **Hinanchovo**
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/Mimonsi/CS2-VehicleVariationPacks" />

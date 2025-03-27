@@ -47,6 +47,10 @@ namespace VehicleVariationPacks
                 }
             }
         }
+        
+        [SettingsUISection(kMainSection, kSettingsGroup)]
+        [SettingsUIAdvanced]
+        public bool ShowDebugPacks { get; set; }
 
         public DropdownItem<string>[] GetNameDropdownItems()
         {
@@ -62,26 +66,35 @@ namespace VehicleVariationPacks
                 });
             }
 
-            /*items.Add(new DropdownItem<string>()
+            if (ShowDebugPacks)
             {
-                value = "debug_ColorComponents1",
-                displayName = "ColorComponents1",
-            });
-            items.Add(new DropdownItem<string>()
-            {
-                value = "debug_ColorComponents2",
-                displayName = "ColorComponents2",
-            });
-            items.Add(new DropdownItem<string>()
-            {
-                value = "debug_ColorComponents3",
-                displayName = "ColorComponents3",
-            });
-            items.Add(new DropdownItem<string>()
-            {
-                value = "debug_Test",
-                displayName = "RGB",
-            });*/
+                items.Add(new DropdownItem<string>()
+                {
+                    value = "debug_CrazyColors",
+                    displayName = "Crazy Colors",
+                });
+                items.Add(new DropdownItem<string>()
+                {
+                    value = "debug_ColorComponents1",
+                    displayName = "Color Components1",
+                });
+                items.Add(new DropdownItem<string>()
+                {
+                    value = "debug_ColorComponents2",
+                    displayName = "Color Components2",
+                });
+                items.Add(new DropdownItem<string>()
+                {
+                    value = "debug_ColorComponents3",
+                    displayName = "Color Components3",
+                });
+                items.Add(new DropdownItem<string>()
+                {
+                    value = "debug_Test",
+                    displayName = "RGB",
+                });
+            }
+
 
             return items.ToArray();
         }
