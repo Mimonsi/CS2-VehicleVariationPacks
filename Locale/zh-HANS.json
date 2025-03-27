@@ -6,12 +6,12 @@
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "在在线工具中创建包并下载文件后，单击“打开变体包文件夹”并将下载的 json 文件放入该文件夹中。点击“重新加载可用包”以刷新列表并在下拉菜单中选择您的包。",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "打开变体包文件夹",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "打开储存变体包的文件夹，此文件夹允许您添加自己的包。",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ShowDebugPacks]": "Show Debug Packs",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ShowDebugPacks]": "显示调试变体包",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ShowDebugPacks]": "在下拉列表中显示额外的内置调试包。",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reload available Packs",
-    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reloads the available packs installed in your packs folder.",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Active Pack",
-    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Choose which Variation Pack to use. If you manually installed a pack and it is not displayed here, click on 'Reload available Packs' to refresh the list.",
-    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Open Variation Pack Creator",
-    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "Open the Variation Pack Creator in your browser. This tool allows you to create your own variation packs."
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "重新加载可用变体包",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "重新加载在文件夹中安装的可用变体包。",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "启用变体包",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "选择要使用的变体包。 如果您手动安装了一个变体包，但它没有显示在这里，点击“重新加载可用变体包”以刷新列表。",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "打开变体包编辑器",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenVariationPackCreator]": "在您的浏览器中打开变体包编辑器。此工具允许您创建自己的变体包。"
 }
