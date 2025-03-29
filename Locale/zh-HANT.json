@@ -6,6 +6,8 @@
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ImportPackText]": "After creating your pack in the online tool and downloading the file, click on 'Open Variation Pack Folder' and put the downloaded json-file in that folder. Click on 'Reload available Packs' to refresh the list and select your pack in the dropdown menu.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Open Packs Folder",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.OpenPacksFolder]": "Opens the folder where the packs are stored, allowing you to add your own.",
+    "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ShowDebugPacks]": "Show Debug Packs",
+    "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ShowDebugPacks]": "Shows additional built-in debug packs in the pack dropdown.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reload available Packs",
     "Options.OPTION_DESCRIPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.ReloadPacks]": "Reloads the available packs installed in your packs folder.",
     "Options.OPTION[VehicleVariationPacks.VehicleVariationPacks.Mod.Setting.PackDropdown]": "Active Pack",
