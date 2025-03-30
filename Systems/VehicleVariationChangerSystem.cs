@@ -98,6 +98,11 @@ namespace VehicleVariationPacks.Systems
                     }
                 }
             }
+            if (pack.Entries == null || pack.Entries.Count == 0)
+            {
+                Mod.log.Warn($"No variations found to save: Entities.Length: {entities.Length}");
+                return;
+            }
             Mod.log.Info("File saved with " + pack.Entries.Count + " entries");
             pack.Name = "Vanilla";
             pack.Save();

@@ -42,7 +42,7 @@ Thanks to **krzychu124** for helping me with the first steps of accessing vehicl
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/vehicle-variation-packs.1678502/" />
 	<!--Version of the mod-->
-	<ModVersion Value="2.1.0" />
+	<ModVersion Value="2.1.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
@@ -50,16 +50,10 @@ Thanks to **krzychu124** for helping me with the first steps of accessing vehicl
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
 - Fix error on loading in rare cases
-- Improve performance when changing packs
-- Add advanced option to show debug packs
-- Localization:
-	- Polish by **karmela68**
-	- Spanish by **elGendo87**
-	- Korean by **Hinanchovo**
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/Mimonsi/CS2-VehicleVariationPacks" />
 	<ExternalLink Type="discord" Url="https://discord.gg/vd7HXnpPJf" />
 	<ExternalLink Type="paypal" Url="https://www.paypal.com/paypalme/KonstantinSchwarze" />
-	<ExternalLink Type="ko-fi" Url="https://ko-fi.com/mimonsi" />
+	<ExternalLink Type="kofi" Url="https://ko-fi.com/mimonsi" />
 </Publish>
