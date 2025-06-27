@@ -42,9 +42,9 @@ Thanks to **krzychu124** for helping me with the first steps of accessing vehicl
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/vehicle-variation-packs.1678502/" />
 	<!--Version of the mod-->
-	<ModVersion Value="2.1.1" />
+	<ModVersion Value="2.1.2" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.2.*" />
+	<GameVersion Value="1.3.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->

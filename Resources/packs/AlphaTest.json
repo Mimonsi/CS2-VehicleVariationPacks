@@ -1,0 +1,19 @@
+{
+  "Name": "AlphaTest",
+  "Entries": {
+    "Car05": [
+      {
+        "Color1": "00000000",
+        "Color2": "00000000",
+        "Color3": "00000000",
+        "Probability": 100
+      },
+      {
+        "Color1": "000000FF",
+        "Color2": "000000FF",
+        "Color3": "000000FF",
+        "Probability": 100
+      }
+    ]
+  }
+}

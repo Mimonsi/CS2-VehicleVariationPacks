@@ -11,7 +11,7 @@ using VehicleVariationPacks.Systems;
 
 namespace VehicleVariationPacks
 {
-    [FileLocation($"ModsSettings/{nameof(VehicleVariationPacks)}/{nameof(VehicleVariationPacks)}")]
+    [FileLocation("ModsSettings/VehicleVariationPacks/VehicleVariationPacks")]
     [SettingsUIGroupOrder(kSettingsGroup, kCreateVariationPackGroup)]
     [SettingsUIShowGroupName(kSettingsGroup, kCreateVariationPackGroup)]
     

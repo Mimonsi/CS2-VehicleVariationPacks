@@ -1,5 +1,3 @@
-using Colossal.Logging;
-using Colossal.Serialization.Entities;
 using Game;
 using Game.Common;
 using Game.Prefabs;
@@ -29,9 +27,9 @@ namespace VehicleVariationPacks.Systems
             EntityQueryDesc desc = new EntityQueryDesc
             {
                 Any =
-                [
+                new []{
                     ComponentType.ReadOnly<CarData>(),
-                ]
+                }
             };
             query = GetEntityQuery(desc);
             //uiUpdateState = UIUpdateState.Create(World, 1024);
@@ -67,9 +65,9 @@ namespace VehicleVariationPacks.Systems
             EntityQueryDesc desc = new EntityQueryDesc
             {
                 Any =
-                [
+                new []{
                     ComponentType.ReadOnly<Car>(),
-                ],
+                },
             };
             var updateQuery = GetEntityQuery(desc);
             foreach (var entity in updateQuery.ToEntityArray(Allocator.Temp))

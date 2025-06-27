@@ -51,7 +51,7 @@ namespace VehicleVariationPacks
 			}
 		}
 
-		public static string? Translate(string? id, string? fallback = null)
+		public static string Translate(string id, string fallback = null)
 		{
 			if (id is not null && GameManager.instance.localizationManager.activeDictionary.TryGetValue(id, out var result))
 			{

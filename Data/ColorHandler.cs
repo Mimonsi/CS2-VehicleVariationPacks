@@ -2,36 +2,39 @@
 using Newtonsoft.Json;
 using UnityEngine;
 
-namespace VehicleVariationPacks.Data;
+namespace VehicleVariationPacks.Data
 
-public class ColorHandler : JsonConverter
 {
-    public ColorHandler()
+    public class ColorHandler : JsonConverter
     {
-    }
-
-    public override bool CanConvert(Type objectType)
-    {
-        return true;
-    }
-
-    public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-    {
-        try
+        public ColorHandler()
         {
-            ColorUtility.TryParseHtmlString("#" + reader.Value, out Color loadedColor);
-            return loadedColor;
         }
-        catch (Exception ex)
-        {
-            Debug.LogError($"Failed to parse color {objectType} : {ex.Message}");
-            return null;
-        }
-    }
 
-    public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-    {
-        string val = ColorUtility.ToHtmlStringRGB((Color)value);
-        writer.WriteValue(val);
+        public override bool CanConvert(Type objectType)
+        {
+            return true;
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue,
+            JsonSerializer serializer)
+        {
+            try
+            {
+                ColorUtility.TryParseHtmlString("#" + reader.Value, out Color loadedColor);
+                return loadedColor;
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError($"Failed to parse color {objectType} : {ex.Message}");
+                return null;
+            }
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            string val = ColorUtility.ToHtmlStringRGB((Color)value);
+            writer.WriteValue(val);
+        }
     }
 }
