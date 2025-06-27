@@ -13,8 +13,8 @@
         <!--The file where mod information which is required for publishing mod on PDX mods are stored-->
         <PublishConfigurationPath>Properties\PublishConfiguration.xml</PublishConfigurationPath>
         <LangVersion>default</LangVersion>
-        <AssemblyVersion>2.1.2</AssemblyVersion>
-        <FileVersion>2.1.2</FileVersion>
+        <AssemblyVersion>2.2.0</AssemblyVersion>
+        <FileVersion>2.2.0</FileVersion>
         <Nullable>disable</Nullable>
     </PropertyGroup>
 

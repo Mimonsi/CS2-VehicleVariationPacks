@@ -1,3 +1,4 @@
+using Colossal.Serialization.Entities;
 using Game;
 using Game.Common;
 using Game.Prefabs;
@@ -37,10 +38,15 @@ namespace VehicleVariationPacks.Systems
             GameManager.instance.RegisterUpdater(Initialize);
         }
 
-        private void Initialize()
+        private bool Initialize()
         {
+            Mod.log.Info("Initializing VehicleVariationChangerSystem");
             //UpdatePrefabs();
-            SaveDefaultVariations();
+            if (!SaveDefaultVariations())
+            {
+                Mod.log.Info("Failed to initialize VehicleVariationChangerSystem: No variations found to save.");
+                return false;
+            }
             if (_currentVariationPack == null)
             {
                 string pack = "Realistic Global";
@@ -51,8 +57,15 @@ namespace VehicleVariationPacks.Systems
                 Mod.log.Info("Loading selected pack on startup: " + pack);
                 _currentVariationPack = VariationPack.Load(pack);
             }
-            UpdateEntities();
-            Enabled = true;
+
+            if (!UpdateEntities())
+            {
+                Mod.log.Info("Failed to initialize VehicleVariationChangerSystem: No entities updated with variations.");
+                return false;
+            }
+                
+            Mod.log.Info("VehicleVariationChangerSystem initialized successfully.");
+            return true;
         }
 
         public static void UpdateEntitiesManually()
@@ -76,9 +89,9 @@ namespace VehicleVariationPacks.Systems
             }
         }
 
-        private void SaveDefaultVariations()
+        private bool SaveDefaultVariations()
         {
-            Mod.log.Info("Saving default variations...");
+            Mod.log.Debug("Saving default variations...");
             var entities = query.ToEntityArray(Allocator.Temp);
             VariationPack pack = new VariationPack();
             foreach (var entity in entities)
@@ -98,15 +111,16 @@ namespace VehicleVariationPacks.Systems
             }
             if (pack.Entries == null || pack.Entries.Count == 0)
             {
-                Mod.log.Warn($"No variations found to save: Entities.Length: {entities.Length}");
-                return;
+                Mod.log.Debug($"No variations found to save: Entities.Length: {entities.Length}");
+                return false;
             }
-            Mod.log.Info("File saved with " + pack.Entries.Count + " entries");
+            Mod.log.Debug("File saved with " + pack.Entries.Count + " entries");
             pack.Name = "Vanilla";
             pack.Save();
+            return true;
         }
 
-        private void UpdateEntities()
+        private bool UpdateEntities()
         {
             Mod.log.Info("Updating entities");
             if (_currentVariationPack == null)
@@ -115,21 +129,32 @@ namespace VehicleVariationPacks.Systems
                 _currentVariationPack = VariationPack.Load("Vanilla");
             }
             var entities = query.ToEntityArray(Allocator.Temp);
+            int i = 0;
             foreach (var entity in entities)
             {
                 if (EntityManager.HasBuffer<SubMesh>(entity))
                 {
                     var subMesh = EntityManager.GetBuffer<SubMesh>(entity);
                     if (subMesh.IsEmpty)
+                    {
+                        Mod.log.Debug("Mesh buffer is empty for entity: " + entity + ", skipping.");
                         continue;
+                    }
+                        
                     if (subMesh[0].m_SubMesh != Entity.Null && EntityManager.HasBuffer<ColorVariation>(subMesh[0].m_SubMesh))
                     {
                         var colorVariations = EntityManager.GetBuffer<ColorVariation>(subMesh[0].m_SubMesh);
                         var prefabName = prefabSystem.GetPrefabName(entity);
                         _currentVariationPack.FillColorVariations(prefabName, ref colorVariations);
+                        i++;
+                        Mod.log.Debug("Updated " + prefabName + " with " + colorVariations.Length + " variations.");
                     }
                 }
             }
+            Mod.log.Info(i + "/" + entities.Length + " entities updated with variations from pack.");
+            if (i == 0)
+                return false;
+            return true;
         }
 
         protected override void OnUpdate()
