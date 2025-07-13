@@ -65,6 +65,7 @@ namespace VehicleVariationPacks.Systems
             }
                 
             Mod.log.Info("VehicleVariationChangerSystem initialized successfully.");
+            Enabled = true;
             return true;
         }
 
