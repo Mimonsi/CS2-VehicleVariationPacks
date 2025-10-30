@@ -1,0 +1,1831 @@
+{
+  "Name": "Vanilla",
+  "Entries": {
+    "TruckTrailer02": [
+      {
+        "Color1": "7D7D7D",
+        "Color2": "606060",
+        "Color3": "A4A4A4",
+        "Probability": 100
+      },
+      {
+        "Color1": "A8A8A8",
+        "Color2": "959595",
+        "Color3": "535353",
+        "Probability": 100
+      },
+      {
+        "Color1": "916A6A",
+        "Color2": "868686",
+        "Color3": "656565",
+        "Probability": 100
+      }
+    ],
+    "TruckTrailer03": [
+      {
+        "Color1": "606060",
+        "Color2": "525252",
+        "Color3": "A4A4A4",
+        "Probability": 100
+      },
+      {
+        "Color1": "9A9A9A",
+        "Color2": "959595",
+        "Color3": "535353",
+        "Probability": 100
+      },
+      {
+        "Color1": "94856F",
+        "Color2": "868686",
+        "Color3": "656565",
+        "Probability": 100
+      }
+    ],
+    "TruckTrailer01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "484848",
+        "Color3": "484848",
+        "Probability": 100
+      },
+      {
+        "Color1": "878787",
+        "Color2": "6A6A6A",
+        "Color3": "737373",
+        "Probability": 100
+      },
+      {
+        "Color1": "484848",
+        "Color2": "8C8C8C",
+        "Color3": "8C8C8C",
+        "Probability": 100
+      }
+    ],
+    "TruckTrailer04": [
+      {
+        "Color1": "606060",
+        "Color2": "525252",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9A9A9A",
+        "Color2": "AEAEAE",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "453F35",
+        "Color2": "747474",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "TractorTrailer02": [
+      {
+        "Color1": "A33131",
+        "Color2": "7D7D7D",
+        "Color3": "496B90",
+        "Probability": 100
+      }
+    ],
+    "TractorTrailer01": [
+      {
+        "Color1": "DD4242",
+        "Color2": "7D7D7D",
+        "Color3": "C0C0C0",
+        "Probability": 100
+      }
+    ],
+    "TractorTrailer03": [
+      {
+        "Color1": "DD4242",
+        "Color2": "7D7D7D",
+        "Color3": "DD4242",
+        "Probability": 100
+      }
+    ],
+    "Taxi01": [
+      {
+        "Color1": "FDB813",
+        "Color2": "000000",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Taxi02": [
+      {
+        "Color1": "FDB813",
+        "Color2": "000000",
+        "Color3": "000000",
+        "Probability": 100
+      }
+    ],
+    "RoadMaintenanceVehicle01": [
+      {
+        "Color1": "FFCF00",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "PrisonVan01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "ParkMaintenanceVehicle01": [
+      {
+        "Color1": "DDBE95",
+        "Color2": "575757",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "OreMiningTruck01": [
+      {
+        "Color1": "D49E3F",
+        "Color2": "414141",
+        "Color3": "DD3A3A",
+        "Probability": 100
+      }
+    ],
+    "OilTruck01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "36503A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "704A4A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "736654",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5B5B5B",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "3A3A3A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "MotorbikeDelivery01": [
+      {
+        "Color1": "DDDDDD",
+        "Color2": "2B2B2B",
+        "Color3": "353535",
+        "Probability": 100
+      },
+      {
+        "Color1": "535353",
+        "Color2": "EB4A4A",
+        "Color3": "EB4A4A",
+        "Probability": 100
+      },
+      {
+        "Color1": "BC2323",
+        "Color2": "333333",
+        "Color3": "333333",
+        "Probability": 100
+      },
+      {
+        "Color1": "BC9A23",
+        "Color2": "BC9A23",
+        "Color3": "353535",
+        "Probability": 100
+      },
+      {
+        "Color1": "2377BC",
+        "Color2": "FFFFFF",
+        "Color3": "2377BC",
+        "Probability": 100
+      }
+    ],
+    "Hearse01": [
+      {
+        "Color1": "1E1E1E",
+        "Color2": "1D1D1D",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "FrontendLoaderTrailer01": [
+      {
+        "Color1": "466074",
+        "Color2": "6A6A6A",
+        "Color3": "A9A9A9",
+        "Probability": 100
+      }
+    ],
+    "OreMiningTractorTrailer01": [
+      {
+        "Color1": "FFBF4C",
+        "Color2": "6A6A6A",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "ForestHarvesterTrailer01": [
+      {
+        "Color1": "81B3D5",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "TractorFertilizerSpreader01": [
+      {
+        "Color1": "DD4242",
+        "Color2": "484848",
+        "Color3": "D9C465",
+        "Probability": 100
+      }
+    ],
+    "TractorPlough01": [
+      {
+        "Color1": "DD4242",
+        "Color2": "8E8E8E",
+        "Color3": "7E7E7E",
+        "Probability": 100
+      }
+    ],
+    "TractorSowingMachine01": [
+      {
+        "Color1": "626262",
+        "Color2": "DD4242",
+        "Color3": "D9C465",
+        "Probability": 100
+      }
+    ],
+    "TractorSprayer01": [
+      {
+        "Color1": "FFE4C2",
+        "Color2": "9F9F9F",
+        "Color3": "B2B2B2",
+        "Probability": 100
+      }
+    ],
+    "ForestForwarderTrailer01": [
+      {
+        "Color1": "81B3D5",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "ForestForwarder01": [
+      {
+        "Color1": "81B3D5",
+        "Color2": "626262",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "ForestHarvester01": [
+      {
+        "Color1": "81B3D5",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "FrontendLoader01": [
+      {
+        "Color1": "466174",
+        "Color2": "6A6A6A",
+        "Color3": "A8A8A8",
+        "Probability": 100
+      }
+    ],
+    "OreMiningTractor01": [
+      {
+        "Color1": "FFBE4C",
+        "Color2": "6A6A6A",
+        "Color3": "6A6A6A",
+        "Probability": 100
+      }
+    ],
+    "Tractor01": [
+      {
+        "Color1": "9A3434",
+        "Color2": "6F6F6F",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "7D7D7D",
+        "Color2": "B1B1B1",
+        "Color3": "484848",
+        "Probability": 100
+      },
+      {
+        "Color1": "567D5A",
+        "Color2": "747474",
+        "Color3": "C0C0C0",
+        "Probability": 100
+      },
+      {
+        "Color1": "7D6549",
+        "Color2": "7D7D7D",
+        "Color3": "555555",
+        "Probability": 100
+      },
+      {
+        "Color1": "D9AE24",
+        "Color2": "D9AE24",
+        "Color3": "787878",
+        "Probability": 100
+      },
+      {
+        "Color1": "5D8DB2",
+        "Color2": "989898",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A8A8A8",
+        "Color2": "747474",
+        "Color3": "868686",
+        "Probability": 100
+      }
+    ],
+    "CoalTruck01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "818181",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "484848",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9F887F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FF0000",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "4B9158",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car02": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "CA4444",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "39A7C0",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A4A4A4",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "484848",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFD700",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "7BB2A5",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "B4DDFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "8D8171",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFDEB3",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car03": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "909090",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "333333",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9F5353",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "878272",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5AA1E7",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "727F90",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFD82F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "B73D3D",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "647764",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car04": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "B2B2B2",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "636363",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "DD4E4E",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FADD67",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "91DBDD",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "6CABDD",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FF5955",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "C9E6FF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D4BA97",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car05": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A8A8A8",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "575757",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "B24646",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "6FB5C5",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "958578",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "78A9CF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFDB64",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "778777",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFE0B6",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car06": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9F9F9F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "484848",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "953838",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9A8E7C",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "6885A4",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "68736F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D2C4A8",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFDD72",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "3A6D87",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car07": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A8A8A8",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "494949",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFCA67",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "64826A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "62809A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "E7C945",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "DD424D",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A3C5C2",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "AEA08C",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car08": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A4A4A4",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "434343",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "F1C74C",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "BC4C3F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "617966",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "7596A8",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "736457",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFE1B6",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "8DB3C2",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Van01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "8C8C8C",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "505050",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "824949",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "786C5F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "637851",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "71849A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A44F4F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5589A8",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D9BA34",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car09": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "B7B7B7",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "525252",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D95959",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "819F77",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "787878",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "657995",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFE33D",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5FB8FF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "86756E",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Car01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "909090",
+        "Color2": "909090",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "CE4242",
+        "Color2": "CE4242",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFCD2F",
+        "Color2": "FFCD2F",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "60DBFF",
+        "Color2": "60DBFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "7591AE",
+        "Color2": "7591AE",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "454545",
+        "Color2": "454545",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "454545",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFC900",
+        "Color2": "626262",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "6DABFF",
+        "Color2": "454545",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Motorbike01": [
+      {
+        "Color1": "5B5B5B",
+        "Color2": "735E54",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D93830",
+        "Color2": "5B5B5B",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "454545",
+        "Color2": "838383",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "8C6656",
+        "Color2": "3F3F3F",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "627457",
+        "Color2": "6F5D53",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Scooter01": [
+      {
+        "Color1": "C05A5A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "439043",
+        "Color2": "6D6D6D",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5269B7",
+        "Color2": "5269B7",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "E2AB59",
+        "Color2": "CFCFCF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "43B5E2",
+        "Color2": "747474",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "363636",
+        "Color2": "5E5E5E",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "MuscleCar01": [
+      {
+        "Color1": "CA3C3C",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "4D4D4D",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "F1F1F1",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "E79E52",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "51A7CF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "94BCB8",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D4C75B",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "824B4B",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "51694E",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9F8080",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "MuscleCar02": [
+      {
+        "Color1": "CA3838",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "3E3E3E",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FAFAFA",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "E79845",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "239CD4",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "82C0BA",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "DDCC35",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9F3E3E",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "53784F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9F7474",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "MuscleCar03": [
+      {
+        "Color1": "CA3C3C",
+        "Color2": "CA3C3C",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "575757",
+        "Color2": "575757",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "575757",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "F1A555",
+        "Color2": "F1A555",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "3EB8F1",
+        "Color2": "5B5B5B",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "86D9D0",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFD50D",
+        "Color2": "575757",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "4692BC",
+        "Color2": "4692BC",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5F9059",
+        "Color2": "5F9059",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D47777",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "MuscleCar04": [
+      {
+        "Color1": "D94040",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "616161",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "535353",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "EC9130",
+        "Color2": "EC9130",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "1397D4",
+        "Color2": "3E3E3E",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "46B28C",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "D9BF28",
+        "Color2": "D9BF28",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "BC5151",
+        "Color2": "BC5151",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "363636",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "D94448",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "MuscleCar05": [
+      {
+        "Color1": "CF3D3D",
+        "Color2": "FFA500",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "4D4D4D",
+        "Color2": "FFA500",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "7E7E7E",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "EC9234",
+        "Color2": "5B5B5B",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "198FC5",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "69BCB4",
+        "Color2": "69BCB4",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "E7D326",
+        "Color2": "E7D326",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FF9E9E",
+        "Color2": "FF9E9E",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FF9000",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "739473",
+        "Color2": "739473",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "CamperTrailer01": [
+      {
+        "Color1": "5B5B5B",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FF3D3D",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "30B72C",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFFFFF",
+        "Color2": "575757",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFC672",
+        "Color2": "5E5E5E",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "6A6A6A",
+        "Color2": "72CFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "6DC6FF",
+        "Color2": "9A9A9A",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFDEB3",
+        "Color2": "FFDEB3",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FF3D3D",
+        "Color2": "707070",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Bus01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Bus02": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "Bus03": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "5E5E5E",
+        "Color3": "454545",
+        "Probability": 100
+      }
+    ],
+    "BlastholeDrillingRig01": [
+      {
+        "Color1": "9F4A44",
+        "Color2": "737373",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "CombineHarvester01": [
+      {
+        "Color1": "45A84F",
+        "Color2": "4D4D4D",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "MiningExcavator01": [
+      {
+        "Color1": "D49E3F",
+        "Color2": "868686",
+        "Color3": "D5D5D5",
+        "Probability": 100
+      }
+    ],
+    "AdministrationVehicle01": [
+      {
+        "Color1": "333333",
+        "Color2": "878787",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "EU_Snowplow01": [
+      {
+        "Color1": "FFCF00",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "NA_Snowplow01": [
+      {
+        "Color1": "FF9033",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "EU_GarbageTruck01": [
+      {
+        "Color1": "DDDDDD",
+        "Color2": "656565",
+        "Color3": "4B6951",
+        "Probability": 100
+      }
+    ],
+    "NA_GarbageTruck01": [
+      {
+        "Color1": "CCCCCC",
+        "Color2": "CCCCCC",
+        "Color3": "4E584E",
+        "Probability": 100
+      }
+    ],
+    "EU_TruckTractor01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "959595",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "484848",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "BC3B3B",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "E2BD50",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "487851",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5F8290",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "5383B2",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "864747",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "NA_TruckTractor01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9A9A9A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "505050",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "A83838",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "66B4CA",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "627687",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "FFE65A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "698C6F",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "72A2A8",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "EU_PostVan01": [
+      {
+        "Color1": "FFC859",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "NA_PostVan01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFC245",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "EU_PoliceVehicle01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "345D8C",
+        "Color3": "CCDF30",
+        "Probability": 100
+      }
+    ],
+    "NA_PoliceVehicle01": [
+      {
+        "Color1": "333333",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "EU_PoliceVehicle02": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "CCDF30",
+        "Color3": "345D8C",
+        "Probability": 100
+      }
+    ],
+    "NA_PoliceVehicle02": [
+      {
+        "Color1": "333333",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "EU_FireTruck01": [
+      {
+        "Color1": "FF3434",
+        "Color2": "FFD85F",
+        "Color3": "8C8E8D",
+        "Probability": 100
+      }
+    ],
+    "NA_FireTruck01": [
+      {
+        "Color1": "E70000",
+        "Color2": "FFFFFF",
+        "Color3": "FFD700",
+        "Probability": 100
+      }
+    ],
+    "EU_Ambulance01": [
+      {
+        "Color1": "D3E232",
+        "Color2": "146F5E",
+        "Color3": "EEFF38",
+        "Probability": 100
+      }
+    ],
+    "NA_Ambulance01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FF000A",
+        "Color3": "FFD800",
+        "Probability": 100
+      }
+    ],
+    "EU_DeliveryVan01": [
+      {
+        "Color1": "F1F1F1",
+        "Color2": "6F6F6F",
+        "Color3": "A3A3A3",
+        "Probability": 100
+      },
+      {
+        "Color1": "ADADAD",
+        "Color2": "B5B5B5",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "952A2A",
+        "Color2": "F6F6F6",
+        "Color3": "989898",
+        "Probability": 100
+      },
+      {
+        "Color1": "4A799F",
+        "Color2": "656565",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "DDAA37",
+        "Color2": "5B5B5B",
+        "Color3": "C0C0C0",
+        "Probability": 100
+      },
+      {
+        "Color1": "414141",
+        "Color2": "D9D9D9",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ],
+    "NA_DeliveryVan01": [
+      {
+        "Color1": "FFFFFF",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "9A9A9A",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "333333",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "784D4D",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "7E6E57",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      },
+      {
+        "Color1": "708D95",
+        "Color2": "FFFFFF",
+        "Color3": "FFFFFF",
+        "Probability": 100
+      }
+    ]
+  }
+}

@@ -44,14 +44,14 @@ Thanks to **krzychu124** for helping me with the first steps of accessing vehicl
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/vehicle-variation-packs.1678502/" />
 	<!--Version of the mod-->
-	<ModVersion Value="2.2.1" />
+	<ModVersion Value="2.2.2" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.3.*" />
+	<GameVersion Value="1.3.6*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-- Fix pack not loading when using dropdown menu
+- Recompiled for Patch 1.3.6f1
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
 	<ExternalLink Type="github" Url="https://github.com/Mimonsi/CS2-VehicleVariationPacks" />
