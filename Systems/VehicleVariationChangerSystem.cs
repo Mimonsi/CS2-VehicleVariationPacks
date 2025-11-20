@@ -37,14 +37,14 @@ namespace VehicleVariationPacks.Systems
             prefabSystem = World.GetOrCreateSystemManaged<PrefabSystem>();
             GameManager.instance.RegisterUpdater(Initialize);
         }
-
+        
         private bool Initialize()
         {
-            Mod.log.Info("Initializing VehicleVariationChangerSystem");
+            Mod.log.Trace("Initializing VehicleVariationChangerSystem");
             //UpdatePrefabs();
             if (!SaveDefaultVariations())
             {
-                Mod.log.Info("Failed to initialize VehicleVariationChangerSystem: No variations found to save.");
+                Mod.log.Trace("Failed to initialize VehicleVariationChangerSystem: No variations found to save. (x100)");
                 return false;
             }
             if (_currentVariationPack == null)
