@@ -6,6 +6,7 @@ using Game.SceneFlow;
 using Game.Vehicles;
 using Unity.Collections;
 using Unity.Entities;
+using Colossal.Core;
 using VehicleVariationPacks.Data;
 
 namespace VehicleVariationPacks.Systems
@@ -35,7 +36,7 @@ namespace VehicleVariationPacks.Systems
             query = GetEntityQuery(desc);
             //uiUpdateState = UIUpdateState.Create(World, 1024);
             prefabSystem = World.GetOrCreateSystemManaged<PrefabSystem>();
-            GameManager.instance.RegisterUpdater(Initialize);
+            MainThreadDispatcher.RegisterUpdater(Initialize);
         }
         
         private bool Initialize()
